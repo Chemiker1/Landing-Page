@@ -1,0 +1,61 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+header, footer, a, #hero {
+  background: #1f2937;
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+#hero p {
+  color: #efe7eb;
+}
+
+#hero img {
+  background: #666;
+}
+
+#info h2 {
+  color: #1f2937;
+  font-size: 36px;
+}
+
+#info p {
+  color: #666;
+}
+
+#header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#quote {
+  background: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+}
+
+#quote figcaption {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+button {
+  font-weight: bold;
+}
+
+button, #call-to-action {
+  background: #3882f6;
+  color: #f9faf8;
+}
