@@ -39,7 +39,7 @@ ul {
 
 #hero p {
   color: #efe7eb;
-  margin: 4px 0;
+  margin: 4px 0 12px;
 }
 
 #hero img {
@@ -51,10 +51,29 @@ ul {
 #info h2 {
   color: #1f2937;
   font-size: 36px;
+  text-align: center;
+}
+
+#info-container {
+  display: flex;
+  padding: 0  15%;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 64px;
+}
+
+.info-item {
+  width: 128px;
+  height: 128px;
+  border: solid #3882f6;
+  border-radius: 12px;
+  margin: auto;
 }
 
 #info p {
   color: #666;
+  text-align: center;
+  margin: 4px 0 0;
 }
 
 #header-logo {
@@ -64,14 +83,24 @@ ul {
 
 #quote {
   background: #e5e7eb;
+  padding: 64px 15%;
+}
+
+#quote blockquote {
+  margin: 0;
+}
+
+#quote p {
   font-size: 36px;
   font-style: italic;
+  margin: 8px 0;
 }
 
 #quote figcaption {
   font-size: 18px;
   font-style: normal;
   font-weight: bold;
+  text-align: right;
 }
 
 li {
