@@ -156,3 +156,11 @@ button, #call-to-action-div {
   align-self: center;
   flex-shrink: 0;
 }
+
+footer {
+  padding: 16px;
+}
+
+footer p {
+  text-align: center;
+}
